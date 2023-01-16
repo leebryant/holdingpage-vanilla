@@ -21,5 +21,4 @@ jobs:
           app_location: "/" # This will typically be the repository root
           api_location: "" # No API here, therefore
           skip_api_build: true # skip API build
-          output_location: "_site" # Modify this to where your SSG places the built HTML - could be `dist`, `build`... check your config
-          app_build_command: 'yarn build' # Not necessary since the action will pick it up from 'package.json' but I like it explicit
+          output_location: "/" # Modify this to where your SSG places the built HTML - could be `dist`, `build`... check your config
