@@ -1,7 +1,7 @@
-<html>
-<head>
-  <meta http-equiv="refresh" content="0;url=index.html" />
-</head>
-<body>
-</body>
-</html>
+<%@ Page Language="C#" %>
+<script runat="server">
+  protected override void OnLoad(EventArgs e)
+  {
+      Response.Redirect("index.html");
+  }
+</script>
